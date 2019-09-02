@@ -16,7 +16,7 @@ def operation_to_message(op)
     "Multiplying"
   when '/'
     "Dividing"
-  end # if we needed more after, we would need return/puts on when condition results
+  end
 end
 prompt("Welcome to Calculator! Enter your name: ")
 
@@ -89,7 +89,7 @@ loop do # main loop
               num1 * num2
             when "/"
               num1.to_f / num2.to_f
-  end
+            end
 
   prompt "The result is #{result}"
 
@@ -98,6 +98,4 @@ loop do # main loop
   break unless answer.downcase.start_with?("y")
 end
 
-prompt "Thank you for using the calculator. Good bye!" 
-
-
+prompt "Thank you for using the calculator. Good bye!"
