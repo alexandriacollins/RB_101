@@ -35,8 +35,7 @@ loop do
 
   computer = VALID_CHOICES.sample
 
-  puts "You chose: #{player}; Computer chose: #{computer}"
-
+  prompt "You chose: #{player}; Computer chose: #{computer}"
   prompt display_result(player, computer)
 
   prompt "Do you want to play again?"
