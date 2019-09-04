@@ -23,9 +23,9 @@ end
 
 def check_total_wins(p_wins, c_wins)
   if p_wins == 5
-    prompt "You are the grand winner!" 
+    prompt "You are the grand winner!"
   elsif c_wins == 5
-    prompt "The computer is the grand winner!" 
+    prompt "The computer is the grand winner!"
   end
 end
 
